@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "mongode",
+    "port": 3005,
+    "url": "url:mongodb:127.0.0.1:3005/kaili",
+    "database": "mongodb",
+    "password": "410825",
+    "name": "mongodb",
+    "user": "kaili",
+    "connector": "mongodb"
+  }
+}

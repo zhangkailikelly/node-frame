@@ -1,0 +1,25 @@
+{
+  "name": "ZKL",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "HAHA": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "Role",
+      "principalId": "$everyone",
+      "permission": "Allow",
+      "property": "say"
+    }
+  ],
+  "methods": {}
+}

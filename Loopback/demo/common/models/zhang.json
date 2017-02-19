@@ -1,0 +1,29 @@
+{
+  "name": "zhang",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "aihao": {
+      "type": "string",
+      "required": true
+    },
+    "gongzi": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "Role",
+      "principalId": "$everyone",
+      "permission": "Allow",
+      "property": "say"
+    }
+  ],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "kelly",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "Role",
+      "principalId": "$everyone",
+      "permission": "Allow",
+      "property": "say"
+    }
+  ],
+  "methods": {}
+}
